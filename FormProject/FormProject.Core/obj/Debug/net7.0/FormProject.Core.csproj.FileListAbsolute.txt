@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\bin\Debug\net7.0\FormProject.Core.deps.json
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\bin\Debug\net7.0\FormProject.Core.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\bin\Debug\net7.0\FormProject.Core.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\refint\FormProject.Core.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\FormProject.Core.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Core\obj\Debug\net7.0\ref\FormProject.Core.dll

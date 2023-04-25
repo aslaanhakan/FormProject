@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Data.deps.json
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Data.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Data.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Data.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\bin\Debug\net7.0\FormProject.Entity.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\refint\FormProject.Data.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\FormProject.Data.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Data\obj\Debug\net7.0\ref\FormProject.Data.dll

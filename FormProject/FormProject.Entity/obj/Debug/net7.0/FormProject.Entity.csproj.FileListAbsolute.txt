@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\bin\Debug\net7.0\FormProject.Entity.deps.json
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\bin\Debug\net7.0\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\bin\Debug\net7.0\FormProject.Entity.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\refint\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\FormProject.Entity.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Entity\obj\Debug\net7.0\ref\FormProject.Entity.dll
