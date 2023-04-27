@@ -48,8 +48,10 @@ C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debu
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Business.dll
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Data.dll
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Business.pdb
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Data.pdb
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\bin\Debug\net7.0\FormProject.Entity.pdb
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.MVC\obj\Debug\net7.0\FormProject.MVC.csproj.AssemblyReference.cache

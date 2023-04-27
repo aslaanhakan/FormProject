@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FormProject.Business\FormProject.Business.csproj" />
     <ProjectReference Include="..\FormProject.Data\FormProject.Data.csproj" />
   </ItemGroup>
 

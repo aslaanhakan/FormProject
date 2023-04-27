@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FormProject.Data.Migrations
 {
     [DbContext(typeof(FormProjectContext))]
-    [Migration("20230425213812_InitDb")]
+    [Migration("20230426235706_InitDb")]
     partial class InitDb
     {
         /// <inheritdoc />
@@ -95,16 +95,16 @@ namespace FormProject.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2023, 4, 26, 0, 38, 12, 590, DateTimeKind.Local).AddTicks(1369),
+                            CreatedAt = new DateTime(2023, 4, 27, 2, 57, 6, 123, DateTimeKind.Local).AddTicks(3703),
                             Name = "Test Form1",
-                            UserId = "08853dbf-e697-4bce-9313-53e2c3ce0bf0"
+                            UserId = "78599ded-b4b6-402e-bfbc-266c67881d06"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2023, 4, 26, 0, 38, 12, 590, DateTimeKind.Local).AddTicks(1409),
+                            CreatedAt = new DateTime(2023, 4, 27, 2, 57, 6, 123, DateTimeKind.Local).AddTicks(3737),
                             Name = "Test Form2",
-                            UserId = "08853dbf-e697-4bce-9313-53e2c3ce0bf0"
+                            UserId = "78599ded-b4b6-402e-bfbc-266c67881d06"
                         });
                 });
 
@@ -136,7 +136,7 @@ namespace FormProject.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9fb68652-9a7b-459b-89f0-8c6824b55a00",
+                            Id = "011ac11e-fdd9-41c3-8ff7-981b3d49309e",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -208,17 +208,17 @@ namespace FormProject.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "08853dbf-e697-4bce-9313-53e2c3ce0bf0",
+                            Id = "78599ded-b4b6-402e-bfbc-266c67881d06",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "74d4e094-6e08-4218-aacc-936514c73b72",
+                            ConcurrencyStamp = "b81ac03d-df41-402c-8f41-3f6608892508",
                             Email = "admin@formproject.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN.FORMPROJECT.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH/F9DZweLv2ompt2cBNDuZK02vXT2RP7x8vAUhN6/4Wk2WOTfXK6uCtWNP8VjKtoQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPeAfzuEHgx/HMbzaKiEerk9p3mtZ4hnJy4QdYQWSMIl+i4dOX5n9Fye8vy279HN8Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a113f7d4-44f0-473d-9f25-4b9ffb8dfab6",
+                            SecurityStamp = "6a890194-71b5-46f9-973b-83c4a3eddb6b",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
@@ -309,8 +309,8 @@ namespace FormProject.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "08853dbf-e697-4bce-9313-53e2c3ce0bf0",
-                            RoleId = "9fb68652-9a7b-459b-89f0-8c6824b55a00"
+                            UserId = "78599ded-b4b6-402e-bfbc-266c67881d06",
+                            RoleId = "011ac11e-fdd9-41c3-8ff7-981b3d49309e"
                         });
                 });
 

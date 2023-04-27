@@ -10,3 +10,8 @@ C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\obj
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\obj\Debug\net7.0\refint\FormProject.Business.dll
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\obj\Debug\net7.0\FormProject.Business.pdb
 C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\obj\Debug\net7.0\ref\FormProject.Business.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\bin\Debug\net7.0\FormProject.Data.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\bin\Debug\net7.0\FormProject.Entity.dll
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\bin\Debug\net7.0\FormProject.Data.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\bin\Debug\net7.0\FormProject.Entity.pdb
+C:\Users\Admin\Documents\GitHub\FormProject\FormProject\FormProject.Business\obj\Debug\net7.0\FormProject.Business.csproj.CopyComplete

@@ -646,6 +646,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "FormProject.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FormProject.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FormProject.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FormProject.Business.dll": {}
+        }
+      },
       "FormProject.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1496,6 +1509,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "FormProject.Business/1.0.0": {
+      "type": "project",
+      "path": "../FormProject.Business/FormProject.Business.csproj",
+      "msbuildProject": "../FormProject.Business/FormProject.Business.csproj"
+    },
     "FormProject.Data/1.0.0": {
       "type": "project",
       "path": "../FormProject.Data/FormProject.Data.csproj",
@@ -1509,6 +1527,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FormProject.Business >= 1.0.0",
       "FormProject.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.5",
@@ -1542,6 +1561,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.Business\\FormProject.Business.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.Business\\FormProject.Business.csproj"
+            },
             "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.Data\\FormProject.Data.csproj": {
               "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.Data\\FormProject.Data.csproj"
             }

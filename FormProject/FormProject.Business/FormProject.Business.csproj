@@ -6,4 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FormProject.Data\FormProject.Data.csproj" />
+  </ItemGroup>
+
 </Project>

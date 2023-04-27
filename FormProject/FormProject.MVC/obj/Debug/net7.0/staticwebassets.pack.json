@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\FormProject.MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.MVC\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Documents\\GitHub\\FormProject\\FormProject\\FormProject.MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

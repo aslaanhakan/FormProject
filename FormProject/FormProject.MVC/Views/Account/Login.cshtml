@@ -1,0 +1,25 @@
+﻿@model LoginViewModel
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+<form asp-area=""
+      asp-controller="Account"
+      asp-action="Login"
+      method="post">
+    <input type="hidden" asp-for="ReturnUrl">
+
+    <h3>Login Here</h3>
+
+    <label asp-for="UserName">Kullanıcı Adı = admin</label>
+    <input type="text" placeholder="UserName" asp-for="UserName">
+
+    <label asp-for="Password">Parola = admin</label>
+    <input type="password" placeholder="Password" asp-for="Password">
+
+    <button type="submit">Log In</button>
+
+</form>
+@section Style{
+    <link rel="stylesheet" href="~/css/login.css" />
+}

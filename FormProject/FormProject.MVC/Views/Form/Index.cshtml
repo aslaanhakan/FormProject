@@ -1,0 +1,138 @@
+﻿@model FormViewModel
+
+<div class="bg-light rounded h-100 p-4">
+    <h6 class="mb-4">Admin Talosu</h6>
+    <table id="menuFull" class="table table-bordered table-sm">
+        <input class="mb-3" type="text" autocomplete="off" name="searchTags" id="searchTags" placeholder="Aranacak Kelime" />
+        <thead class="text-bg-success">
+            <tr>
+                <th>FormId</th>
+                <th>FormAdı</th>
+                <th>Oluşturan</th>
+                <th>Açıklama</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var form in Model.Forms)
+            {
+                <tr>
+                    <td class="align-middle">@form.FormId</td>
+                    <td class="align-middle">@form.FormName</td>
+                    <td class="align-middle">@form.UserName</td>
+                    <td class="align-middle">@(form.Description == null ? "-" : form.Description)</td>
+                    <td class="align-middle">@form.FieldFirstName</td>
+                    <td class="align-middle">@form.FieldLastName</td>
+                    <td class="align-middle">@(form.Age < 1 ? "-" : form.Age)</td>
+                </tr>
+            }
+            <tr>
+                <td colspan="7">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Yeni Form Ekle
+                    </button>
+
+
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- Modal -->
+
+<form asp-area=""
+      asp-controller="Form"
+      asp-action="Create"
+      method="post">
+    <input type="hidden" asp-for="UserId" />
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Form Ekle</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label" asp-for=@Model.FormName></label>
+                                <input class="form-control" asp-for="FormName">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label class="form-label" asp-for="Description"></label>
+                                <input class="form-control" asp-for="Description">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-3">
+                                <label class="form-label" asp-for="FieldFirstName"></label>
+                                <input type="text" class="form-control" asp-for="FieldFirstName">
+                                <span class="text-danger" asp-validation-for="FieldFirstName"></span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-3">
+                                <label class="form-label" asp-for="FieldLastName"></label>
+                                <input type="text" class="form-control" asp-for="FieldLastName">
+                                <span class="text-danger" asp-validation-for="FieldLastName"></span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="mb-3">
+                                <label class="form-label" asp-for="Age"></label>
+                                <input type="number" class="form-control" asp-for="Age">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Vazgeç</button>
+                    <button type="submit" class="btn btn-success">Ekle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script>
+        //Aramalarda büyük küçük harf duyarlılığı için
+        jQuery.expr[':'].contains = function (a, i, m) {
+            return jQuery(a).text().toUpperCase()
+                .indexOf(m[3].toUpperCase()) >= 0;
+        };
+
+        $(document).ready(function () {
+
+            // keyup ile inputa herhangi bir değer girilince fonksiyonu tetikliyoruz
+            $("#searchTags").keyup(function () {
+
+                // inputa yazılan değeri alıyoruz
+                var value = $("#searchTags").val();
+
+                // eğer input içinde değer yoksa yani boşsa tüm menüyü çıkartıyoruz
+                if (value.length == 0) {
+
+                    $("#menuFull tr").show();
+
+                    // arama yapılmışsa ilk olarak tüm menüyü gizliyoruz ve girilen değer ile eşleşen kısmı çıkarıyoruz
+                } else {
+
+                    $("#menuFull tr").hide();
+                    $("#menuFull tr:contains(" + value + ")").show();
+
+                }
+
+            });
+
+        });
+    </script>
+}

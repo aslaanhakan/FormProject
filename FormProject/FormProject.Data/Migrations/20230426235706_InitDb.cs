@@ -204,25 +204,25 @@ namespace FormProject.Data.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "9fb68652-9a7b-459b-89f0-8c6824b55a00", null, "Admin", "ADMIN" });
+                values: new object[] { "011ac11e-fdd9-41c3-8ff7-981b3d49309e", null, "Admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "08853dbf-e697-4bce-9313-53e2c3ce0bf0", 0, "74d4e094-6e08-4218-aacc-936514c73b72", "admin@formproject.com", true, false, null, "ADMIN.FORMPROJECT.COM", "ADMIN", "AQAAAAIAAYagAAAAEH/F9DZweLv2ompt2cBNDuZK02vXT2RP7x8vAUhN6/4Wk2WOTfXK6uCtWNP8VjKtoQ==", null, false, "a113f7d4-44f0-473d-9f25-4b9ffb8dfab6", false, "admin" });
+                values: new object[] { "78599ded-b4b6-402e-bfbc-266c67881d06", 0, "b81ac03d-df41-402c-8f41-3f6608892508", "admin@formproject.com", true, false, null, "ADMIN.FORMPROJECT.COM", "ADMIN", "AQAAAAIAAYagAAAAEPeAfzuEHgx/HMbzaKiEerk9p3mtZ4hnJy4QdYQWSMIl+i4dOX5n9Fye8vy279HN8Q==", null, false, "6a890194-71b5-46f9-973b-83c4a3eddb6b", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "9fb68652-9a7b-459b-89f0-8c6824b55a00", "08853dbf-e697-4bce-9313-53e2c3ce0bf0" });
+                values: new object[] { "011ac11e-fdd9-41c3-8ff7-981b3d49309e", "78599ded-b4b6-402e-bfbc-266c67881d06" });
 
             migrationBuilder.InsertData(
                 table: "Forms",
                 columns: new[] { "Id", "CreatedAt", "Description", "Name", "UserId" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2023, 4, 26, 0, 38, 12, 590, DateTimeKind.Local).AddTicks(1369), null, "Test Form1", "08853dbf-e697-4bce-9313-53e2c3ce0bf0" },
-                    { 2, new DateTime(2023, 4, 26, 0, 38, 12, 590, DateTimeKind.Local).AddTicks(1409), null, "Test Form2", "08853dbf-e697-4bce-9313-53e2c3ce0bf0" }
+                    { 1, new DateTime(2023, 4, 27, 2, 57, 6, 123, DateTimeKind.Local).AddTicks(3703), null, "Test Form1", "78599ded-b4b6-402e-bfbc-266c67881d06" },
+                    { 2, new DateTime(2023, 4, 27, 2, 57, 6, 123, DateTimeKind.Local).AddTicks(3737), null, "Test Form2", "78599ded-b4b6-402e-bfbc-266c67881d06" }
                 });
 
             migrationBuilder.InsertData(
